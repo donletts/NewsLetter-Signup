@@ -43,7 +43,7 @@ app.post ( "/", function (req, res) {
     var apiKey = "dbce63a2869ea61106b9d08a14923b98-us19";
 
 // Mail Chimp member id
-    var memberId = "_c696f91c47";
+    var memberId = "c696f91c47";
     var apiEndpoint = "https://us19.api.mailchimp.com/3.0/lists/" + memberId;
     const httpOptions = {
         method: "POST",
